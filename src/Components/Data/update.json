@@ -1,0 +1,38 @@
+{
+    "Update": {
+        "team": [{
+                "id": "1",
+                "Home": "Chelsea",
+                "Away": "Manchester United",
+                "HomeLogo": "https://i.ibb.co/gFd0s7R/chelsea-fc-logo-A24-FEB6-BFB-seeklogo-com.png",
+                "AwayLogo": "https://i.ibb.co/ChskHDY/manchester-city-fc-new-logo-4-C45133019-seeklogo-com.png",
+                "Tips": "Over 1"
+            },
+            {
+                "id": "2",
+                "Home": "Paris Saint German",
+                "Away": "Real Madrid",
+                "HomeLogo": "https://i.ibb.co/TtLhCZQ/paris-saint-germain-fc-logo-1790125-D6-A-seeklogo-com.png",
+                "AwayLogo": "https://i.ibb.co/phkHKKK/Real-Madrid-Club-de-Futbol-logo-60682932-F8-seeklogo-com.png",
+                "Tips": "Over 1"
+            },
+            {
+                "id": "3",
+                "Home": "Inter Milan",
+                "Away": "Bercelona",
+                "HomeLogo": "https://i.ibb.co/HKHhLTS/inter-milan-2014-2015-logo-87-FC53-AD51-seeklogo-com.png",
+                "AwayLogo": "https://i.ibb.co/pRpH9bC/barca.png",
+                "Tips": "Over 1"
+            },
+            {
+                "id": "4",
+                "Home": "Atletico Madrid",
+                "Away": "Ac Milan",
+                "HomeLogo": "https://i.ibb.co/b3C185w/AC-Milan-logo-FAB8-F89-DB7-seeklogo-com.png",
+                "AwayLogo": "https://i.ibb.co/72CPq3w/atletico-madrid-new-logo-6-AC4-CCB6-A2-seeklogo-com.jpg",
+                "Tips": "Over 1"
+            }
+
+        ]
+    }
+}
