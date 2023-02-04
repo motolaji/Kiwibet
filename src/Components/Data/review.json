@@ -1,0 +1,60 @@
+{
+    "Review": {
+
+        "customer": [{
+                "id": "0",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Nala",
+                "Name": "Favour",
+                "Feedback": "I don’t stake frequently but when I do,it’s always a win. Thank you for everything kiwi. There’s actually a lot of scammers in this bet stuff,but not only are you real,you’re transparent and honest too. You’re actually saving lives!"
+            },
+            {
+                "id": "1",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Milo",
+                "Name": "Cyril",
+                "Feedback": "you're a boss, i don't know how you do these things, straight wins back to back since I joined. Thank you very much."
+            },
+            {
+                "id": "2",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Simba",
+                "Name": "Sodiq",
+                "Feedback": "Good morning boss, Thanks for always being there I really appreciate you. I have been surviving since I joined your platform and i am able to sort out some bills I couldn't expect to sort out thanks to KIWIBET you shall not fall Insha Allah"
+            },
+            {
+                "id": "3",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Buddy",
+                "Name": "Tommy",
+                "Feedback": "KIWI,I appreciate you for reals, though I don't have large amount of cash to stake high. I always enjoy your free betting tips, Since 23rd February i haven't lost any game. I just want to say thank you."
+            },
+            {
+                "id": "4",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Tiger",
+                "Name": "Willy",
+                "Feedback": "I have tried comparing you to other platforms .. But 'No Contender', My only mistake is fear, I stake low, but now i can confirm you i swear"
+            },
+            {
+                "id": "5",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Daisy",
+                "Name": "Chuke",
+                "Feedback": "I have being in sports betting since 2009 but I have not seen a bet guru like you i am amazed"
+            },
+            {
+                "id": "6",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Annie",
+                "Name": "Olawale",
+                "Feedback": "I'm very grateful that I came across you, not everybody are granted this kind of opportunity"
+            },
+            {
+                "id": "7",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Jack",
+                "Name": "Winner",
+                "Feedback": "I just started following you're channel all i can say is that you are the best punter, I wish you more wins and wisdom"
+            },
+            {
+                "id": "8",
+                "Photo": "https://api.dicebear.com/5.x/adventurer/svg?seed=Sammy",
+                "Name": "NO1",
+                "Feedback": "God bless you bro , I have lost money on crypto also on all this nonsense investment, right now I’m gathering money to join your vip.I Swear you are saving lives, I love you . And I believe you will take me out of trenches. Coming back with your platform #kiwibet📌"
+            }
+        ]
+    }
+}

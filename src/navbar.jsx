@@ -6,22 +6,11 @@ export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full
-         bg-[#0F0F12]
-          shadow" 
-          style={{
-         backgroundImage: `url()`,
-         scrollBehavior: 'smooth',
-
-
-    }}
+        <nav 
+        className="w-screen bg-[#0F0F12] shadow sticky top-0" 
+          style={{ backgroundImage: `url()`, scrollBehavior: 'smooth', zIndex:'10' }}
           >
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8" 
-//             style={{
-//       backgroundImage: `url(https://assets.website-files.com/624f34ee3b91afefdf14076f/624f8a14314de6afdb6b32c0_image-mesh-hero-blockchain-template.svg)`,
-//       backgroundSize: 'cover',
-//    }}
-   >
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-0 md:py-5 md:block">
                         <a href="./">
@@ -62,7 +51,7 @@ export default function NavBar() {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-0 md:block md:pb-0 md:mt-0 ${
+                        className={`flex-1 justify-self-center pb-2 mt-0 md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"
                         }`}>
                         <ul  onClick={() => setNavbar(!navbar)} className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-clash font-bold">
