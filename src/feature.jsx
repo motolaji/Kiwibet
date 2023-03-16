@@ -1,7 +1,8 @@
 import React from 'react'
-import Origami from './images/Origami.svg'
-import Badge from './images/Badge.svg'
-import World from './images/Worldwide.svg'
+import Subscribe from './images/Group.svg'
+import Won from './images/money.svg'
+import Accuracy from './images/accuracy.svg'
+import Customer from './images/customer.svg'
 import Sophia from './images/Sophia Animation.gif'
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -21,7 +22,7 @@ const Feature = () => {
         <div className='w-full bg-white flex sm:w-screen sm:flex-col '>
         <div className='flex flex-col w-1/4 h-auto bg-[#333] text-white sm:h-4/12 sm:w-full p-8'>
             <div className=''>
-                <img className='w-32 h-32' src={Origami} alt='origami'/>
+                <img className='w-14 h-14' src={Subscribe} alt='origami'/>
             </div>
             <div className='w-full h-4/5 border-b-4  border-[#00b082] border-double'>
                 <h1 className='font-clash text-4xl font-semibold text-start md:text-[26px] mdm:text-2xl'>100K+ <br></br>Active Subscribers.</h1>
@@ -32,7 +33,7 @@ const Feature = () => {
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#0F0F12] text-white sm:h-4/12 sm:w-full p-8'>
         <div className=''>
-                <img className='w-32 h-32' src={Badge} alt='origami'/>
+                <img className='w-14 h-14' src={Won} alt='origami'/>
             </div>
             <div className='w-full h-4/5 border-b-4  border-[#00b082] border-double'>
                 <h1 className='font-clash text-4xl font-semibold text-start md:text-[30px] mdm:text-2xl'>250 Million + <br></br>Won.</h1>
@@ -43,7 +44,7 @@ const Feature = () => {
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#1F1F26] text-white sm:h-4/12 sm:w-full p-8'>
         <div className='flex align-start justify-start'>
-                <img className='w-32 h-32 object-contain' src={World} alt='origami'/>
+                <img className='w-14 h-14 object-contain' src={Accuracy} alt='origami'/>
             </div>
             <div className='w-full h-4/5 border-b-4 border-[#00b082] border-double '>
                 <h1 className='font-clash text-4xl mdm:text-2xl  md:text-[30px] font-semibold text-start'>96% Accuracy.</h1>
@@ -54,7 +55,7 @@ const Feature = () => {
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#0F0F12] text-white sm:h-4/12 sm:w-full p-8'>
         <div className='flex align-start justify-start'>
-                <img className='w-32 h-32 object-contain' src={World} alt='origami'/>
+                <img className='w-14 h-14 object-contain' src={Customer} alt='origami'/>
             </div>
             <div className='w-full h-4/5 border-b-4 border-[#00b082] border-double '>
                 <h1 className='font-clash text-4xl mdm:text-2xl md:text-[30px] font-semibold text-start'>Customer service.</h1>
@@ -67,7 +68,8 @@ const Feature = () => {
         <div className="flex items-center justify-center text-white w-full h-auto sm:h-auto bg-[#0F0F12] sm:w-full flex-col p-8">
            {/* <h1 className='font-clash text-3xl'>
             customer review</h1>  */}
-            <h1 className='font-clash text-4xl font-semibold mb-2'>~Reviews~</h1>
+            <h1 className='font-clash text-xl font-semibold mb-2 sm:text-xl'>Do you care to win with us ?</h1>
+            <h1 className='font-clash text-3xl font-semibold mb-2 sm:text-xl'>~SUBSCRIBERS'S REVIEW~</h1>
             <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -85,7 +87,7 @@ const Feature = () => {
         className="w-full"
       >
        {REVIEW.Review.customer.map((item) =>(
-      <SwiperSlide>
+      <SwiperSlide className=''>
       <div className="flex items-center justify-center w-full flex-col h-full">
       <div className="h-96 w-full smx:w-1/2 lg:w-2/5 flex flex-col justify-center items-center bg-[#333] rounded-md">
      <div className="w-full h-20 flex justify-start items-center">
