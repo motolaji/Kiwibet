@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Ball from './images/ball1.png'
+import Ball from './images/ball1.webp'
 import './style.css';
 
 const Hero = () => {
