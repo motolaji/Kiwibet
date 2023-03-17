@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Ball from './images/ball.svg'
+import Ball from './images/ball1.png'
 import './style.css';
 
 const Hero = () => {
@@ -85,9 +85,9 @@ const Hero = () => {
     </motion.div>
     <motion.div
    className="flex items-center justify-center w-2/4 h-screen sm:w-screen sm:h-2/4">
-         <img className="absolute w-2/3 h-2/3 smx:left-[33%] sm:w-9/12 sm:h-9/12 sm:bottom-[2.5%] mdm:left-[12%] mdm:w-9/12 mdm:h-9/12 mdm:bottom-[2.5%] rounded-full " 
+         <img className="object-contain absolute w-2/3 h-2/3 smx:left-[33%] sm:w-9/12 sm:h-9/12 sm:bottom-[2.5%] mdm:left-[12%] mdm:w-9/12 mdm:h-9/12 mdm:bottom-[2.5%] rounded-full " 
          style={{}}
-         src={Ball} alt="Football"/>
+         src={Ball} alt="KiwiBet-Football"/>
     </motion.div>
     </div>
   )

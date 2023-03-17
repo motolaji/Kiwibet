@@ -18,7 +18,7 @@ export default function NavBar() {
                             <img 
                             className="object-cover w-28 h-20"
                             // style={{width:'120px', height:'100px'}} 
-                            src={KiwiLogoGreen}/>
+                            src={KiwiLogoGreen} alt='Kiwibet'/>
                         </a>
                         <div className="md:hidden">
                             <button
