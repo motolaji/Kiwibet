@@ -14,7 +14,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 import REVIEW from './Components/Data/review.json'
 
 const Feature = () => {
-    console.log(REVIEW.Review.customer)
+    // console.log(REVIEW.Review.customer)
   return (
     <div className='w-screen h-auto flex justify-center align-center flex-col'>
     {/* features */}
@@ -46,7 +46,7 @@ const Feature = () => {
         <div className='flex align-start justify-start'>
                 <img className='w-14 h-14 object-contain' src={Accuracy} alt='origami'/>
             </div>
-            <div className='w-full h-4/5 border-b-4 border-[#00b082] border-double '>
+            <div className='w-full h-4/5 border-b-4  pb-10 border-[#00b082] border-double '>
                 <h1 className='font-clash text-4xl mdm:text-2xl  md:text-[30px] font-semibold text-start'>96% Accuracy.</h1>
                 <h5 className='font-clash text-xl mdm:text-lg text-start'>
                 Our team of experts puts in the time and effort to ensure that our subscribers receive the most reliable and accurate information available.
@@ -97,7 +97,7 @@ const Feature = () => {
      </div>
       <div className="w-full shrink flex h-60 items-center bg-[#1F1F26]
       justify-center flex p-5 italic font-clash text-start sm:text-sm">" {item.Feedback} "</div>
-      <div className="w-full h-16 flex items-end justify-end p-3 uppercase font-semibold mb-4">{item.Name}</div>
+      <div className="w-full italic text-xs h-16 flex items-end justify-end p-3 uppercase font-semibold mb-4">{item.Name}</div>
      </div>
       </div>
       </SwiperSlide>

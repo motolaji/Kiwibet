@@ -6,6 +6,8 @@ import Feature from './feature';
 import Sophia from './sophia';
 import Mobile from './mobile'
 import Footer from './footer';
+import Modal from './Components/modal'
+import React, {useState, USeEffect} from "react";
 
 function App() {
   return (

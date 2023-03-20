@@ -51,7 +51,7 @@ const About = () => {
       variants={squareVariants}
       
     className="bg-[#0F0F12] h-auto flex justify-center items-center flex-wrap font-clash text-white">
-    <h1 className='font-semibold uppercase text-3xl m-8'>Tips of the day</h1>
+    <h1 className='font-semibold uppercase text-2xl m-8'>Tips of the day</h1>
     <Swiper  
     slidesPerView={1}
     spaceBetween={30}
