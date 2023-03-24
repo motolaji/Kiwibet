@@ -79,8 +79,8 @@ const Hero = () => {
     Win Consistently with Kiwibet’s reliable and accurate betting tips 
     </h6>
    <div className="flex sm:flex-col">
-   <a className="w-32 h-10 bg-white m-1 flex items-center justify-center rounded hover:bg-[#00b082] hover:text-white font-clash font-semibold text-green-600" href="#mobile">Download App</a>
-    <a className="w-32 h-10 bg-[#00b082]  flex items-center justify-center m-1 rounded hover:bg-white hover:text-[#00b082] font-clash font-semibold text-white" href="https://t.me/joinchat/AAAAAFKb2ttIBE44QLG-TQ">Join Telegram</a>
+   <a className="w-auto h-10 bg-white m-1 flex items-center justify-center rounded hover:bg-[#00b082] hover:text-white font-clash font-semibold text-green-600 text-sm p-2" href="#mobile">Download App</a>
+    <a className="w-auto h-10 bg-[#00b082]  flex items-center justify-center m-1 rounded hover:bg-white hover:text-[#00b082] font-clash font-semibold text-white text-sm p-2" href="https://t.me/joinchat/AAAAAFKb2ttIBE44QLG-TQ">Join us on telegram</a>
    </div>
     </motion.div>
     <motion.div

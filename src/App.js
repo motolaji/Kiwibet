@@ -7,6 +7,7 @@ import Sophia from './sophia';
 import Mobile from './mobile'
 import Footer from './footer';
 import Modal from './Components/modal'
+import Contact from './contact';
 import React, {useState, USeEffect} from "react";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <Feature/>
     <Sophia/>
     <Mobile/>
+    <Contact/>
     <Footer/>
     {/* <Footer/> */}
     </div>

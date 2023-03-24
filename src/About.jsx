@@ -30,7 +30,7 @@ const About = () => {
 
   return (
     <div
-      section id="About" className="w-screen h-auto bg-[#0F0F12]">
+      section id="" className="w-screen h-auto bg-[#0F0F12]">
      {/* <div className=" flex h-3/5 sm:flex-col smx:p-40 sm:p-10" 
     style={{
       //  backgroundImage: `url(${BG})`,
@@ -80,8 +80,8 @@ const About = () => {
       <h4 className=''>Tips:</h4>
       <h4 className='blur-sm text-white'>{item.Tips}</h4>
      <h4> Join our telegram channel to view</h4>
-      <button className="w-32 h-10 bg-white rounded hover:bg-green-600 hover:text-white font-clash font-semibold text-green-600 m-8">
-      <a href="https://t.me/joinchat/AAAAAFKb2ttIBE44QLG-TQ">Join Telegram</a>
+      <button className="w-auto p-2 h-10 bg-white rounded hover:bg-green-600 hover:text-white font-clash font-semibold text-green-600 m-8">
+      <a href="https://t.me/joinchat/AAAAAFKb2ttIBE44QLG-TQ">Join us on telegram</a>
       </button>
       </div>
       </SwiperSlide>

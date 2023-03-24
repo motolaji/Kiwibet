@@ -62,7 +62,7 @@ export default function NavBar() {
                                 <a href="#About">About</a>
                             </li>
                             <li className="text-[#00b082] hover:text-white">
-                                <a href="#Subscribe">Subscribe to KiwiBet Premium</a>
+                                <a href="#Contact">Contact us</a>
                             </li>
         
                         </ul>
