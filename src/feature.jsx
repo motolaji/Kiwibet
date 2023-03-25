@@ -43,77 +43,77 @@ const Feature = () => {
     }
   }, [controls, inView]);
   return (
-    <div className='w-screen h-auto flex justify-center align-center flex-col'>
+    <div className='w-screen h-auto bg-[#0F0F12] flex justify-center align-center flex-col'>
     {/* features */}
    
         <div 
-        className='w-full bg-white flex sm:w-screen sm:flex-col '>
-        <div className='flex flex-col w-1/4 h-auto bg-[#333] text-white sm:h-4/12 sm:w-full p-8'>
+        className='w-full flex sm:w-screen sm:flex-col '>
+        <div 
+        // ref={ref}
+        //     animate={controls}
+        //     initial="hidden"
+        //     variants={slideVariants}
+        className='flex flex-col w-1/4 h-auto bg-[#333] text-white sm:h-4/12 sm:w-full p-8'>
             <div className=''>
                 <img className='w-14 h-14' src={Subscribe} alt='origami'/>
             </div>
-            <motion.div
-            
-            ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={slideVariants}
+            <div
              className='w-full h-4/5 border-b-4  border-[#00b082] border-double'>
                 <h1 className='font-clash text-4xl font-semibold text-start md:text-[26px] mdm:text-2xl'>100K+ <br></br>Active Subscribers.</h1>
                 <h5 className='font-clash text-xl text-start mdm:text-lg'>
                 Our dedication to providing accurate and reliable bet predictions has earned us a strong reputation and a loyal following.
                 </h5>
-            </motion.div>
+            </div>
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#0F0F12] text-white sm:h-4/12 sm:w-full p-8'>
         <div className=''>
                 <img className='w-14 h-14' src={Won} alt='origami'/>
             </div>
-            <motion.div 
+            <div 
             
-            ref={ref}
-            animate={controls}
-             initial="hidden"
-            variants={slideVariantsright}
+            // ref={ref}
+            // animate={controls}
+            //  initial="hidden"
+            // variants={slideVariantsright}
             className='w-full h-4/5 border-b-4  border-[#00b082] border-double'>
                 <h1 className='font-clash text-4xl font-semibold text-start md:text-[30px] mdm:text-2xl'>250 Million + <br></br>Won.</h1>
                 <h5 className='font-clash text-xl text-start mdm:text-lg'>
                 Our expertise and track record of success have helped our users cumulatively win over 250 million with bet. 
                 </h5>
-            </motion.div>
+            </div>
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#1F1F26] text-white sm:h-4/12 sm:w-full p-8'>
         <div className='flex align-start justify-start'>
                 <img className='w-14 h-14 object-contain' src={Accuracy} alt='origami'/>
             </div>
-            <motion.div 
-              ref={ref}
-            animate={controls}
-             initial="hidden"
-            variants={slideVariants}
+            <div 
+            //   ref={ref}
+            // animate={controls}
+            //  initial="hidden"
+            // variants={slideVariants}
             className='w-full h-4/5 border-b-4  pb-10 border-[#00b082] border-double '>
                 <h1 className='font-clash text-4xl mdm:text-2xl  md:text-[30px] font-semibold text-start'>96% Accuracy.</h1>
                 <h5 className='font-clash text-xl mdm:text-lg text-start'>
                 Our team of experts puts in the time and effort to ensure that our subscribers receive the most reliable and accurate information available.
                 </h5>
-            </motion.div>
+            </div>
         </div>
         <div className='flex flex-col w-1/4 h-auto bg-[#0F0F12] text-white sm:h-4/12 sm:w-full p-8'>
         <div className='flex align-start justify-start'>
                 <img className='w-14 h-14 object-contain' src={Customer} alt='origami'/>
             </div>
-            <motion.div 
-              ref={ref}
-            animate={controls}
-             initial="hidden"
-            variants={slideVariantsright}
+            <div 
+            //   ref={ref}
+            // animate={controls}
+            //  initial="hidden"
+            // variants={slideVariantsright}
             
             className='w-full h-4/5 border-b-4 border-[#00b082] border-double '>
                 <h1 className='font-clash text-4xl mdm:text-2xl md:text-[30px] font-semibold text-start'>Customer service.</h1>
                 <h5 className='font-clash text-xl mdm:text-lg text-start'>
                 We respond to any questions or concerns you may have within 24hours. 
                 </h5>
-            </motion.div>
+            </div>
         </div>
         </div>
         <motion.div 
@@ -141,8 +141,7 @@ const Feature = () => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="w-full"
-      >
+        className="w-full">
        {REVIEW.Review.customer.map((item) =>(
       <SwiperSlide className=''>
       <div className="flex items-center justify-center w-full flex-col h-full">
@@ -160,7 +159,6 @@ const Feature = () => {
       </SwiperSlide>
     ))}
       </Swiper>
-
         </motion.div>
         {/* Subscribe section */}
        

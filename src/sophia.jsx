@@ -13,10 +13,16 @@ const Sophia = () => {
       };
 
       const slideVariantsright = {
-        visible: { x: 0, transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75 }},
-        hidden: { x:'50%', transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85 } }
+        visible: { x: 0, transition: { ease: [1.365, 0.09, 1.545, 2.865], duration: 0.75 }},
+        hidden: { x:'50%', transition: { ease: [1.365, 0.09, 1.545, 2.865], duration: 0.85 } }
         
       };
+
+       const squareVariants = {
+    visible: { opacity: 1, scale: 1, transition: { duration: 1}},
+    hidden: { opacity: 0, scale: 0 }
+  };
+
 
 
 
@@ -31,7 +37,12 @@ const Sophia = () => {
       }, [controls, inView]);
 
   return (
-     <div className="w-screen h-auto bg-[#0F0F12] flex justify-center align-center flex-col"
+     <div
+    //   ref={ref}
+    //         animate={controls}
+    //         initial="hidden"
+    //         variants={slideVariants}
+      className="w-screen h-auto bg-[#0F0F12] flex justify-center align-center flex-col"
       style={{
    backgroundImage: `url(https://assets.website-files.com/624f34ee3b91afefdf14076f/624f8a14314de6afdb6b32c0_image-mesh-hero-blockchain-template.svg)`,
    backgroundSize: 'cover',
@@ -47,22 +58,17 @@ const Sophia = () => {
         <img className='w-[450px] sm:w-full sm:h-[50%] rounded h-[480px]' src={Sophy} alt='sophia'/>
         </div>
         <div className='w-6/12 h-full flex items-start flex-col justify-center sm:h-auto sm:w-full smx:pl-8'>
-            <h1 className="text-5xl font-bold font-clash text-start mb-5">MEET SOPHIA</h1>
+            <h1 className="text-5xl sm:text-3xl font-bold font-clash text-start mt-2 mb-5">MEET <br></br>SOPHIA</h1>
             <h5 className="text-lg font-clash text-start mb-5">
             Kiwibet's Intelligent Assistant that will revolutionize your betting experience. Get instant answers to all your questions, process payments quickly, and learn more about the amazing Kiwibet brand through Sophia. 
             </h5>
             <a className="w-auto p-2 h-10 bg-[#00b082] flex items-center justify-center rounded hover:bg-white hover:text-[#00b082] font-clash font-semibold text-white" href="https://t.me/kiwibetbot">Chat with sophia</a>
         </div>
     </motion.div>
-    <motion.div 
-     ref={ref}
-            animate={controls}
-            initial="hidden"
-            variants={slideVariantsright}
-    
+    <div 
     section id="Subscribe" className="flex items-center justify-center text-white w-screen h-auto sm:h-auto sm:w-screen sm:flex-col p-8">
         <div className='w-6/12 h-full flex items-start flex-col justify-center sm:h-auto sm:w-full smx:pl-8'>
-            <h1 className="text-5xl font-bold font-clash text-start mb-5 uppercase">Learn Betting with Kiwi.</h1>
+            <h1 className="text-5xl sm:text-3xl font-bold font-clash text-start mb-2 uppercase">Learn Betting with Kiwi.</h1>
             <h5 className="text-lg font-clash text-start mb-5">
             For beginners and experienced bettors,
             <br></br>Our expert team has compiled a range of resources and contents to help you learn the ins and outs of sports betting.
@@ -73,7 +79,7 @@ const Sophia = () => {
         {/* <div className='w-6/12 h-full sm:h-6/12 sm:w-full flex justify-center items-center'>
         <img className='w-[350px] sm:w-full sm:h-[50%] rounded h-[280px]' src={Soffy} alt='sophia'/>
         </div> */}
-    </motion.div>
+    </div>
     </div>
   )
 }
